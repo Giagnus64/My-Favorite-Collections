@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  uuid: MyString
+  nypl_collection: MyString
+  title: MyString
+  genre: MyString
+  subject: MyString
+  image_link: 
+  item_link: 
+
+two:
+  uuid: MyString
+  nypl_collection: MyString
+  title: MyString
+  genre: MyString
+  subject: MyString
+  image_link: 
+  item_link: 
