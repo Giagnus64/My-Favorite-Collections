@@ -1,0 +1,13 @@
+<h2>You've reached the user index page!</h2>
+<h3>Here are all the users who have collections right now</h3>
+
+
+    
+    <% @users.each do |user| %>
+    <div>
+    <h2><%= link_to user.name, user %></h2>
+    </div>
+    <% end %>
+
+
+

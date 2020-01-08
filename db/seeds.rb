@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+User.destroy_all
+Item.destroy_all
+
+u1 = User.create(username: 'abc123', name: 'test');
+u2 = User.create(username: 'freddy42', name: 'Fred Moore');
+u3 = User.create(username: 'alice42', name: 'Ally Brown');
+u4 = User.create(username: 'jason42', name: 'Jason Nash');
+
+
