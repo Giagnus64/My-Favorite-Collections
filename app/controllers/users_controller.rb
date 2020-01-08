@@ -4,7 +4,6 @@ class UsersController < ApplicationController
     def index
         byebug
         @users = User.all
-        render :index
     end
 
     def show

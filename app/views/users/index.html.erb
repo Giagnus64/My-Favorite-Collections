@@ -3,11 +3,10 @@
 
 
     
-    <% @users.each do |user| %>
-    <div>
-    <h2><%= link_to user.name, user %></h2>
-    </div>
-    <% end %>
+<% @users.each do |user| %>
+    <%= link_to user.name, @user %>
+<% end %>
+
 
 
 
